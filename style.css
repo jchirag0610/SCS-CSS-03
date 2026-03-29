@@ -1,0 +1,96 @@
+@font-face {
+    font-family: helvetica_now;
+    src: url(HelveticaNowDisplay-Regular.woff2);
+}
+
+@font-face {
+    font-family: moralana;
+    src: url(Moralana\ DEMO.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2b2b2b;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: helvetica_now;
+    background: radial-gradient(lightblue, white, grey, royalblue);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 20px 30px;
+    height: 60px;
+}
+
+a {
+    font-weight: bold;
+}
+
+img {
+    height: 200px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.header a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.center {
+    padding: 30px;
+    width: 400px;
+}
+
+.footer {
+    padding: 10px 30px;
+}
+
+.material_heading {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 350px;
+    font-weight: 300;
+}
+
+.first {
+    top: 43%;
+    right: 330px;
+    height: 330px;
+}
+
+.second {
+    top: 57%;
+    right: 650px;
+    width: 170px;
+}
+
+.third {
+    top: 67%;
+    right: 510px;
+    width: 180px;
+}
+
+.new_collection {
+    font-style: italic;
+    font-weight: lighter;
+    font-family: moralana;
+}
+
+.shop_look {
+    text-decoration: underline;
+}
